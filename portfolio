@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mya Salazar | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    background: #0b0b0b;
+    color: #f5f5f5;
+    font-family: 'Inter', sans-serif;
+}
+
+/* GENERAL */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+/* HERO */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.hero p {
+    margin-top: 20px;
+    max-width: 500px;
+    color: #c98f8f;
+    line-height: 1.6;
+}
+
+/* SECTION */
+.section {
+    padding: 100px 0;
+    border-top: 1px solid #1a1a1a;
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+    color: #c98f8f;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.project {
+    position: relative;
+    overflow: hidden;
+}
+
+.project img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(85%);
+    transition: 0.4s;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
+.project-title {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+}
+
+/* ABOUT TEXT */
+.about-text {
+    max-width: 600px;
+    line-height: 1.7;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+.footer {
+    text-align: center;
+    padding: 50px 0;
+    color: #777;
+    font-size: 0.9rem;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+        <div>
+            <h1>Mya Salazar</h1>
+            <p>
+                Moody. Romantic. Intentional. Strategic.<br><br>
+                A curated exploration of design, identity, and brand experience—
+                where emotion and structure exist in balance.
+            </p>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section">
+        <h2>About</h2>
+        <div class="about-text">
+            My work exists in contrast—moody yet romantic, bold yet restrained. 
+            I approach fashion as an immersive experience, where every detail 
+            is intentional and emotionally driven.
+            <br><br>
+            As a double major in Fashion Merchandising and Design, I create 
+            with both vision and strategy. I don’t just design—I understand 
+            how a concept is positioned, communicated, and experienced within a brand.
+        </div>
+    </section>
+
+    <!-- WORK -->
+    <section class="section">
+        <h2>Selected Work</h2>
+        <div class="grid">
+            <div class="project">
+                <img src="https://via.placeholder.com/600x800">
+                <div class="project-title">Concept I</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/600x800">
+                <div class="project-title">Concept II</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/600x800">
+                <div class="project-title">Concept III</div>
+            </div>
+            <div class="project">
+                <img src="https://via.placeholder.com/600x800">
+                <div class="project-title">Concept IV</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section">
+        <h2>Experience</h2>
+        <div class="about-text">
+            Back-of-house and creative assistant across 20+ runway shows, including 
+            Miami Swim Week and Miami Fashion Week.
+            <br><br>
+            Experience in styling, creative direction, and production within 
+            fast-paced fashion environments, contributing to both visual execution 
+            and overall brand presentation.
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact">
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+        <p>Instagram: @yourhandle</p>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        © 2026 Mya Salazar
+    </div>
+
+</div>
+
+</body>
+</html>
